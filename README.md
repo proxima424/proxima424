@@ -1,5 +1,5 @@
 Hii, I am Darpit Rangari.
-I am currently a junior at IIT Delhi.
+
 All day Ethereum maxi.
 
 
