@@ -1,5 +1,6 @@
 Hii, I am Darpit Rangari.
-
+My interests : Permissionless Protocols, Onchain ART, Defi Primitives
+Father of unfinished projects
 All day Ethereum maxi.
 
 
