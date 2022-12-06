@@ -5,6 +5,6 @@ All day Ethereum maxi.
 
 
 
-![Darpit's GitHub stats](https://github-readme-stats.vercel.app/api?username=proxima424&theme=buefy&show_icons=true)(https://github.com/proxima424/github-readme-stats)
+![Darpit's GitHub stats](https://github-readme-stats.vercel.app/api?username=proxima424&theme=buefy&show_icons=true)
 
 
