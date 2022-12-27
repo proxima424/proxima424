@@ -1,6 +1,7 @@
 Hii, I am Darpit Rangari. <br />
+Building Praxis.fi by side.
 My interests : Permissionless Protocols, Onchain ART, Defi Primitives <br />
-I love my private repo  <br />
+I love my private repos  <br />
 Father of unfinished projects <br />
 All day Ethereum maxi. <br/>
 <br/>
