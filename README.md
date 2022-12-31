@@ -1,5 +1,5 @@
 Hii, I am Darpit Rangari. <br />
-Building Praxis.fi by side.
+I am a smart contract dev, trying to better at gas-golfing and securing contracts.</br>
 My interests : Permissionless Protocols, Onchain ART, Defi Primitives <br />
 I love my private repos  <br />
 Father of unfinished projects <br />
