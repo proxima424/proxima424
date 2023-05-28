@@ -1,5 +1,4 @@
-Hii, I am Darpit Rangari. <br />
-I am a smart contract dev, trying to better at gas-golfing and securing contracts.</br>
+I am a Smart Contract Dev, trying to better at understanding all defi primitives and gas-golfing</br>
 A lot left to learn, a lot lot.</br>
 My interests : Permissionless Finance Protocols, Ethereum Tooling <br />
 I love my private repos  <br />
