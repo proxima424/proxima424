@@ -1,4 +1,4 @@
-end of the year matey, crisis time</br>
+end of the year matey, UC till Jan 2024</br>
 My interests : Permissionless Protocols, Gas Optimization, L2 Research <br />
 I love my private repos  <br />
 Father of unfinished projects <br />
