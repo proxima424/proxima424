@@ -1,6 +1,5 @@
-I am a Smart Contract Dev, trying to better at understanding all defi primitives and gas-golfing</br>
-A lot left to learn, a lot lot.</br>
-My interests : Permissionless Finance Protocols, Ethereum Tooling <br />
+end of the year matey, crisis time</br>
+My interests : Permissionless Protocols, Gas Optimization, L2 Research <br />
 I love my private repos  <br />
 Father of unfinished projects <br />
 All day Ethereum maxi. <br/>
