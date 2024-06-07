@@ -1,6 +1,5 @@
-My interests : Permissionless Protocols, Gas Optimization, L2 Research <br />
+My interests : True Permissionless Protocols, Making every service an AVS network, random trending shitss <br />
 I love my private repos  <br />
-Father of unfinished projects <br />
 All day Ethereum maxi. <br/>
 <br/>
 
