@@ -1,4 +1,10 @@
-building permissionless prediction markets at pnp.exchange <br />
+building permissionless prediction markets and defi/ai hyperstructures.
+
+https://x.com/predictandpump
+https://x.com/Bubblegumdotfun
+
+
+<br />
 
 
 ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=proxima424&theme=dark&background=000000)
