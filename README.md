@@ -1,4 +1,4 @@
-building permissionless prediction markets and defi/ai hyperstructures.
+building permissionless prediction markets and defi+ai hyperstructures.
 
 https://x.com/predictandpump
 https://x.com/Bubblegumdotfun
