@@ -1,0 +1,51 @@
+name: Update stats cards
+
+# The streak and stats services can take longer than GitHub's ~4s image proxy
+# timeout to render a card, which shows up as a broken image on the profile.
+# Fetching the cards here and committing them lets the README serve static files.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats-cards
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Fetch cards
+        run: |
+          # Both services return error cards with HTTP 200, so only accept a card
+          # that contains the expected label; otherwise keep the previous one.
+          fetch() {
+            local url=$1 out=$2 marker=$3
+            for attempt in 1 2 3 4; do
+              if curl -fsSL --max-time 60 "$url" -o "$out.tmp" && grep -q "$marker" "$out.tmp"; then
+                mv "$out.tmp" "$out"
+                return
+              fi
+              sleep 15
+            done
+            rm -f "$out.tmp"
+            echo "::warning::Could not refresh $out, keeping the previous card"
+          }
+          fetch "https://streak-stats.demolab.com/?user=proxima424&theme=dark&background=000000" assets/streak.svg "Current Streak"
+          fetch "https://github-readme-stats-eight-fawn-55.vercel.app/api?username=proxima424&theme=buefy&show_icons=true" assets/stats.svg "Total Commits"
+
+      - name: Commit updated cards
+        run: |
+          git add assets
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update stats cards"
+          git pull --rebase
+          git push

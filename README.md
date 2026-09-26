@@ -7,8 +7,8 @@ https://x.com/Bubblegumdotfun
 <br />
 
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=proxima424&theme=dark&background=000000)
+![GitHub Streak](https://raw.githubusercontent.com/proxima424/proxima424/main/assets/streak.svg)
 <br/>
-![Darpit's GitHub stats](https://github-readme-stats-eight-fawn-55.vercel.app/api?username=proxima424&theme=buefy&show_icons=true)
+![Darpit's GitHub stats](https://raw.githubusercontent.com/proxima424/proxima424/main/assets/stats.svg)
 
 
